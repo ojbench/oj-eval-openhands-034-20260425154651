@@ -38,7 +38,6 @@ class ACMOJClient:
         }
 
         self.submission_log_file = '/workspace/submission_ids.log'
-        
 
     def _make_request(self, method: str, endpoint: str, data: Dict[str, Any] = None, 
                      params: Dict[str, Any] = None) -> Optional[Dict]:
